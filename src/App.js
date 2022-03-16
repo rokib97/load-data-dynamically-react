@@ -18,6 +18,7 @@ const LoadPhone = () => {
   }, []);
   return (
     <div>
+      <h1>List Of Samsung Phones..</h1>
       <div className="phones">
         {phones.map((phone) => (
           <Showphone
